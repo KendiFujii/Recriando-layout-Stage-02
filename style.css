@@ -1,0 +1,31 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background: #2C2B3D;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+span {
+    font-weight: 700;
+    color: #00BFA6;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #C2C2C2;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer {
+    color: #FFFFFF;
+}
