@@ -26,7 +26,7 @@ ul li a {
     font-size: 14px;
 }
 
-ul li a:hover{
+a:hover{
     font-weight: 700;
 }
 
@@ -62,6 +62,18 @@ a {
     text-decoration: none;
 }
 
+#linha {
+    margin: 0 auto 27px;
+    width: 568px;
+    border: 1px solid #00BFA6
+}
+
 footer {
     color: #FFFFFF;
+}
+
+#cadeado {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
 }
