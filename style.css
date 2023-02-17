@@ -1,12 +1,46 @@
 body {
     font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    align-items: center;
     background: #2C2B3D;
     margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 1083px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 71px auto 101px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+ul li a { 
+    font-weight: 500;
+    font-size: 14px;
+}
+
+ul li a:hover{
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+    margin: 0 auto 157px;
 }
 
 h1 {
     font-size: 36px;
     color: #FFFFFF;
+    margin: 0 auto 59px;
 }
 
 span {
@@ -18,7 +52,9 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    line-height: 28px;
     color: #C2C2C2;
+    margin: 0;
 }
 
 a {
